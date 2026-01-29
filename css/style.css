@@ -325,12 +325,13 @@ header{
     background: rgba(0, 120, 212, 0.2);
 }
 
-.homebg  { background-image: url(img/homeimg.JPG); }
-.aboutbg { background-image: url(img/aboutimg.png); }
-.educbg  { background-image: url(img/educimg.png); }
-.expbg   { background-image: url(img/expimg.png); }
-.refbg   { background-image: url(img/refimg.jpg); }
-.worksbg { background-image: url(img/worksimg.jpg); }
+.homebg  { background-image: url("../img/homeimg.JPG"); }
+.aboutbg { background-image: url("../img/aboutimg.png"); }
+.educbg  { background-image: url("../img/educimg.png"); }
+.expbg   { background-image: url("../img/expimg.png"); }
+.refbg   { background-image: url("../img/refimg.jpg"); }
+.worksbg { background-image: url("../img/worksimg.jpg"); }
+
 .main-container {
     display: flex;
     flex-direction: row;
