@@ -1,22 +1,19 @@
 <html>
 <head>
-    <title>Home - Computer Technician Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/form-style.css">
 </head>
 <body>
     <div class="main-container">
         <div class="profile-card">
         <h1>Contact Form</h1>
-            <form>
-                <input type="text" id="inputName" placeholder="Name">
-                <br><input type = "text" id="inputEmail" placeholder="Email here.">
-                <br><input type = "text" id="inputMessage" placeholder="Message here">
+            <form action="https://formsubmit.co/aaron_james_capinpin@dlsu.edu.ph" method="post">
+                <input type="text" name="name" required>
+                <br><input type="email" name="email" required>
+                <br><textarea name="message" required></textarea>
+                <br><button type="submit">Send</button>
             </form>
-            <div class="contact-section">
-                <a class="social-btn">Submit</a>
-            </div>
         </div>
-
     </div>
 </body>
 </html>
