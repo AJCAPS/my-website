@@ -41,7 +41,7 @@ alert("Submission was too fast. Please try again.");
 }
 });
 const spamWords = ["free money", "buy now", "click here",
-"subscribe", "promo"];
+"subscribe", "promo", "bet88", "you won", "win easy"];
 function containsSpam(message) {
 const lowerMessage = message.toLowerCase();
 return spamWords.some(word => lowerMessage.includes(word));
