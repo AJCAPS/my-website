@@ -11,12 +11,31 @@ font-size: 14px;
 }
 button {
 padding: 10px;
-background-color: steelblue;
+background-color: #72bf6a;
 color: white;
 border: none;
 cursor: pointer;
 }
-
+h1 {
+    margin: 10px 0;
+    color: #72bf6a;
+    font-size: 28px;
+}
+label {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 /* 4. Components: Portfolio Cards */
 .profile-card {
   background: var(--bg-card);
