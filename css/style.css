@@ -23,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 /* Updated paths in css/style.css */
-.homebg  { background-image: url("../assets/images/homeimg.JPG"); }
+.homebg  { background-image: url("../assets/images/background.png"); }
 .aboutbg { background-image: url("../assets/images/aboutimg.png"); }
 .educbg  { background-image: url("../assets/images/educimg.png"); }
 .expbg   { background-image: url("../assets/images/expimg.png"); }
