@@ -57,10 +57,43 @@ html {
   border-color: var(--bs-primary) !important;
 }
 
+/* --- Digital Clock Container --- */
+#clock-container {
+    text-align: center;
+    background-color: var(--bs-card-bg); /* Use the dark grey card color */
+    color: var(--bs-body-color);
+    padding: 15px;
+    border-radius: var(--bs-border-radius-lg);
+    border: 2px solid var(--bs-primary); /* Use your tech-green accent */
+    font-family: var(--bs-font-sans-serif);
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#digital-clock {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--bs-primary); /* Changed from yellow to your Green highlight */
+}
+
+/* --- Interactive Ball (Checklist Item 1) --- */
 #ball {
-  background: #ff6600;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6600; /* Basketball orange to stand out on dark grey */
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(255, 103, 0, 0.5);
+    pointer-events: none; /* Allows clicks to pass through to the court */
+}
+
+/* --- Profile Card (Checklist Item 6) --- */
+.profile-card {
+  background: var(--bs-card-bg);
+  border-top: 4px solid var(--bs-primary);
+  padding: 2rem;
+  border-radius: var(--bs-border-radius-lg);
+  box-shadow: var(--bs-box-shadow-lg);
+  text-align: center;
+  transition: transform 0.25s ease;
 }
